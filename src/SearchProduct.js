@@ -33,7 +33,7 @@ function SearchProduct() {
   return (
     <div className="container">
       <h2 className="header">Product Inventory</h2>
-      <h4 className="title">Product Name</h4>
+      <h4 data-testid="Tosearch" className="title">Product Name</h4>
       <input className="txtbox"
         type="text"
         onChange={(e) => { setSearch(e.target.value) }}
