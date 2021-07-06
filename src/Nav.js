@@ -13,7 +13,7 @@ function Nav() {
     return (
         <Router>
             <nav>
-                <h1>"Welcome to Product Inventory"</h1>
+                <h1>Welcome to Product Inventory</h1>
                 <ul className="nav-links">
                     <Link to='/Addproduct'>
                         <li>Add product</li>
