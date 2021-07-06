@@ -4,7 +4,7 @@ import axios from 'axios';
 
 
 function AddProduct() {
-    const url = "https://8i6toiaqa8.execute-api.us-east-1.amazonaws.com/prod/"
+    const url = "https://hko8d7r40m.execute-api.us-east-1.amazonaws.com/prod/Lambdafunction"
     const [data, setData] = useState({
         id: "",
         name: "",
